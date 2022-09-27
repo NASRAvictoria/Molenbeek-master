@@ -33,7 +33,7 @@ body
 
 }
 
-#card2
+#card
 {
     
 }
@@ -43,11 +43,12 @@ body
     
 }
 
-#mapid
+.mapid
 { 
     height: 400px; 
-    width: 30vh;
-    padding: 10px;
+    /* width: 30vh; */
+    padding-left: 10px;
+    padding-top: 150px;
 }
 
 .map1
@@ -97,6 +98,14 @@ body
     padding: 10px;
 }
 
+.mini {
+    width: 200px;
+}
+
+.clickable:hover {
+    cursor: pointer;
+}
+
 .map3
 {
     background-color: var(--colorX);
@@ -104,11 +113,13 @@ body
     color: var(--colorZ);
     margin-left: 20px ;
     margin-top: 20px;
-    height: 600px;
-    width: 32vh;
-    padding: 20px;
+    /*height: 800px;*/
+    margin-bottom: 20px;
+    margin-right: 20px;
+    /* width: 32vh; */
+    padding: 30px;
     border-radius: 3%;
-    border: 2px solid black; 
+    border: 2px solid black;
     display: flex;
     flex-direction: column;
 }
