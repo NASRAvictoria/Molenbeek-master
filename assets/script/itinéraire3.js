@@ -52,14 +52,14 @@ textMarker1 = `
 Niveau de difficulté : facile
 <br>
 Distance : 1.5km<br>Dénivelé : nulle`
-// const marker1_blue = L.marker([50.86048, 4.31557], { icon: blueIcon}) // Génération du marqueur                                 
-//     .bindPopup(textMarker1)                     // Ajout du popup au marker
-//     .openPopup();                               // Ouvre le popup
+ const marker1_blue = L.marker([50.86048, 4.31557], { icon: blueIcon}) // Génération du marqueur                                 
+     .bindPopup(textMarker1)                     // Ajout du popup au marker
+     .openPopup();                               // Ouvre le popup
 
-// const marke1_red = L.marker([50.86048, 4.31557], { icon: redIcon}) // Génération du marqueur
-//     .addTo(map)                                 // Ajout à la carte    
-//     .bindPopup(textMarker1)                     // Ajout du popup au marker
-//     .openPopup();                               // Ouvre le popup
+ const marke1_red = L.marker([50.86048, 4.31557], { icon: redIcon}) // Génération du marqueur
+    .addTo(map)                                 // Ajout à la carte    
+    .bindPopup(textMarker1)                     // Ajout du popup au marker
+    .openPopup();                               // Ouvre le popup
 
 textMarker2 = `
 <b>Sculture de l'argent</b>
@@ -69,9 +69,9 @@ textMarker2 = `
 Niveau de difficulté : facile
 <br>
 Distance : 2.5km<br>Dénivelé : nulle  `
-// const marker2 = L.marker([50.85968, 4.34562])
-//     .addTo(map)
-//     .bindPopup(textMarker2);
+ const marker2 = L.marker([50.85968, 4.34562])
+     .addTo(map)
+     .bindPopup(textMarker2);
 
 textMarker3 = ` 
 <b>Gare-aux-fantomes</b>
@@ -82,12 +82,12 @@ Niveau de difficulté : facile
 <br>
 Distance : 3.5km<br>Dénivelé : nulle  `
 
-// const marker3_blue = L.marker([50.857623, 4.325175], { icon: blueIcon})
-//     .addTo(map)
-//     .bindPopup(textMarker3);
+ const marker3_blue = L.marker([50.857623, 4.325175], { icon: blueIcon})
+   .addTo(map)
+     .bindPopup(textMarker3);
     
-// const marker3_red = L.marker([50.857623, 4.325175], { icon: redIcon})
-//     .bindPopup(textMarker3);
+ const marker3_red = L.marker([50.857623, 4.325175], { icon: redIcon})
+    .bindPopup(textMarker3);
 
 textMarker4 = `
 <b>Maison culturelle Molenbeek</b>
@@ -97,9 +97,9 @@ textMarker4 = `
 Niveau de difficulté : facile
 <br>
 Distance : 4.5km<br>Dénivelé : nulle    `
-// const marker4 = L.marker([50.85802, 4.33831]).addTo(map)
-//     .addTo(map)
-//     .bindPopup(textMarker4);
+ const marker4 = L.marker([50.85802, 4.33831]).addTo(map)
+    .addTo(map)
+    .bindPopup(textMarker4);
 
 textMarker5 = `
 <b></b>
@@ -109,9 +109,9 @@ textMarker5 = `
 Niveau de difficulté : facile
 <br>
 Distance : 5.5km<br>Dénivelé : nulle   `
-// const marker5 = L.marker([50.854320, 4.316353]).addTo(map)
-//     .addTo(map)
-//     .bindPopup(textMarker5);
+ const marker5 = L.marker([50.854320, 4.316353]).addTo(map)
+    .addTo(map)
+    .bindPopup(textMarker5);
 
 textMarker6 = `
 <b></b>
@@ -121,9 +121,9 @@ textMarker6 = `
 Niveau de difficulté : facile
 <br>
 Distance : 6.5km<br>Dénivelé : nulle    `
-// const marker6 = L.marker([50.851194, 4.313364]).addTo(map)
-//     .addTo(map)
-//     .bindPopup(textMarker6);
+ const marker6 = L.marker([50.851194, 4.313364]).addTo(map)
+    .addTo(map)
+    .bindPopup(textMarker6);
 
 textMarker7 = `
 <b></b>
@@ -133,9 +133,9 @@ textMarker7 = `
 Niveau de difficulté : facile
 <br>
 Distance : 7.5km<br>Dénivelé : nulle    `
-// const marker7 = L.marker([50.851597, 4.300140]).addTo(map)
-//     .addTo(map)
-//     .bindPopup(textMarker7);
+ const marker7 = L.marker([50.851597, 4.300140]).addTo(map)
+    .addTo(map)
+     .bindPopup(textMarker7);
 
 // ------------------------
 
@@ -238,3 +238,20 @@ function update_markers(new_red) {
         current_red = new_red;
     }
 }
+
+
+//Trace itinéraire//
+
+
+//let lating =[
+  //  [50.86048, 4.31557],
+  //  [50.85968, 4.34562],
+ //   [50.857623, 4.325175],
+  //  [50.85802, 4.33831],
+  //  [50.854320, 4.316353],
+  //  [50.851194, 4.313364],
+  //  [50.851597, 4.300140]
+//];
+
+
+//let polyline = L.polyline(lating.{color:''}).addTo(mapid3);

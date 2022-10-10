@@ -1,1 +1,8 @@
 *.swp
+assets/img/maquettes/
+
+# ignore test files
+test/
+
+#ignore .vscode
+.vscode
