@@ -46,8 +46,8 @@
                                 ?>
 
                                 <!-- Image -->
-                                <a href="<?php echo $image_path; ?>">
-                                    <img src="<?php echo $thumbnail_path; ?>" alt="" title=""/>
+                                <a href="<?php echo $image_path; ?>" >
+                                    <img src="<?php echo $thumbnail_path; ?>"  alt="" title=""/>
                                 </a>
                                 <!-- --- -->
                                 <?php
